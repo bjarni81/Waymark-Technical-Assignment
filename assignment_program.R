@@ -14,6 +14,8 @@ patient_enrollment_span = read_csv(waymark_files[2]) %>%
 #output .csv
 write_csv(patient_enrollment_span,
           "/Users/bnbh_imac/Desktop/Bjarni/Waymark Technical Assignment/patient_enrollment_span.csv")
+#
+nrow(patient_enrollment_span)
 #Answer 1: there are 1,000 rows in this table
 #----------
 outpat_viz = patient_enrollment_span %>%
